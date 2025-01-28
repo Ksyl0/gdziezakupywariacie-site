@@ -36,7 +36,7 @@
                 }`}
             </code></pre>
     </div>
-    <div id="footer" class="bottom-0 inset-x-0 absolute">
+    <div id="footer" class="bottom-1 inset-x-0 absolute">
         <p class="text-center"> © {apiData1.year_string} gdziezakupywariacie.pl | Wszelkie prawa zastrzeżone</p>
     </div>
 </div>
