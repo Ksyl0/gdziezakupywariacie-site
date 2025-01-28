@@ -2,6 +2,10 @@
     export let data;
     const { apiData, apiData1 } = data;
 </script>
+<svelte:head>
+    <title>Gdzie zakupy wariacie?</title>
+    <meta name="description" content="Niezawodne API dla tych którzy muszą wiedzieć czy w tym tygodniu jest handlowa.">
+</svelte:head>
 
 <div class="vh-100 v-stack bg-gray-50" id="main">
     <div class="text-base" id="intro">
