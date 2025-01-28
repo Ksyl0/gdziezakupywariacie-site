@@ -1,11 +1,7 @@
 <script lang="ts">
-    let exampleCodeString: string = `GET "https://getfullyear.com/api/year"<br>
-                {<br>
-                    "year": 2025,<br>
-                    "year_string": "2025",<br>
-                    "sponsored_by": "Viagra: standing tall and proud"<br>
-                }<br>`
-</script>
+    export let data;
+    const { apiData } = data;
+</script>'
 
 <div class="vh-100 v-stack" id="main">
     <div class="text-base" id="intro">
@@ -14,8 +10,8 @@
             A w tym tygodniu jest handlowa czy niehandlowa?<br>
             Jeśli twoja odpowiedź to TAK, to znajdujesz się we właściwym miejscu.
         </p>
-        <br>Każdego dnia setki milionów polaków korzystając z internetu zadaje sobie pytanie<br>
-        "Cholera czy w tym tygodniu jest niedziela handlowa?"*
+        <br>Każdego dnia setki milionów polaków* korzystając z internetu zadaje sobie pytanie<br>
+        "Cholera czy w tym tygodniu jest niedziela handlowa?"
         <br>Developerzy nie posiadający narzędzi do odpowiedzenia na to pytanie byli całkowicie bezradni, <bold class="font-bold">aż do teraz</bold>.
         <p class="text-xs italic font-extralight">* Liczba ustalona na podstawie wróżb żula Mietka spod lidla</p>
         <br>
@@ -25,13 +21,24 @@
         <p class="text-3xl f">
             Banalnie proste API
         </p>
-        <p id="exaple-code" class="border-gray-200">
-        </p>
+        <p id="example-code" class="border-gray-200">
+            <pre><code>
+                {`
+                GET "https://api.gdziezakupywariacie.pl/"
+                {
+                    "czy_handlowa": ${apiData.czy_handlowa},
+                    "odp": ${apiData.odp},
+                    "next_handlowa": ${apiData.next_handlowa}
+                }`}
+            </code></pre>
+    </div>
+    <div id="footer" class="">
+
     </div>
 </div>
 
 <style>
-    * {
+    /* * {
         outline: 2px solid lavender
-    }
+    } */
 </style>
