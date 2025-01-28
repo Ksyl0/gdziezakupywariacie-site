@@ -41,6 +41,7 @@
 		"vitest": "^2.0.4"
 	},
 	"dependencies": {
-		"dotenv": "^16.4.7"
+		"dotenv": "^16.4.7",
+		"super-sitemap": "^1.0.3"
 	}
 }
