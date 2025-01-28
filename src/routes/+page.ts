@@ -1,5 +1,7 @@
 import type { PageLoad } from './$types';
 
+export const csr = false;
+
 export const load = (async () => {
     const [res1, res2] = await Promise.all([
         fetch('https://api.gdziezakupywariacie.pl/'),
