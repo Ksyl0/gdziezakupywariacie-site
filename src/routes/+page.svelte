@@ -3,7 +3,7 @@
     const { apiData, apiData1 } = data;
 </script>
 
-<div class="vh-100 v-stack" id="main">
+<div class="vh-100 v-stack bg-gray-50" id="main">
     <div class="text-base" id="intro">
         <p class="mt-10 font-bold text-xl">
             Czy użytkownik twojej aplikacji kiedykolwiek się ciebie zapytał:<br>
