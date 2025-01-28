@@ -1,12 +1,17 @@
 import type { PageLoad } from './$types';
 
-export const load = (async () => {
-    // Fetch data from the API
-    const response = await fetch('https://api.gdziezakupywariacie.pl');
-    const data = await response.json();
+export const csr = false;
 
-    // Return the data so it can be used in the page
-    return {
-        apiData: data
-    };
+export const load = (async () => {
+    const [res1, res2] = await Promise.all([
+        fetch('https://api.gdziezakupywariacie.pl/'),
+        fetch('https://getfullyear.com/api/year/'),
+      ]);
+    
+      const [data1, data2] = await Promise.all([res1.json(), res2.json()]);
+    
+      return {
+        apiData: data1,
+        apiData1: data2,
+      };
 }) satisfies PageLoad;

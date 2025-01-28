@@ -1,7 +1,7 @@
 <script lang="ts">
     export let data;
-    const { apiData } = data;
-</script>'
+    const { apiData, apiData1 } = data;
+</script>
 
 <div class="vh-100 v-stack" id="main">
     <div class="text-base" id="intro">
@@ -32,8 +32,8 @@
                 }`}
             </code></pre>
     </div>
-    <div id="footer" class="">
-
+    <div id="footer" class="bottom-0 inset-x-0 absolute">
+        <p class="text-center"> © {apiData1.year_string} gdziezakupywariacie.pl | Wszelkie prawa zastrzeżone</p>
     </div>
 </div>
 
