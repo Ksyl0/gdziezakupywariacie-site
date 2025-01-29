@@ -1,6 +1,4 @@
-import type { PageLoad } from './$types';
-
-export const csr = false;
+import type { PageServerLoad } from './$types';
 
 export const load = (async () => {
     const [res1, res2] = await Promise.all([
@@ -14,4 +12,4 @@ export const load = (async () => {
         apiData: data1,
         apiData1: data2,
       };
-}) satisfies PageLoad;
+}) satisfies PageServerLoad;

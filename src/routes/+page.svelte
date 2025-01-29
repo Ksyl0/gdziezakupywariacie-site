@@ -1,6 +1,7 @@
 <script lang="ts">
     export let data;
     const { apiData, apiData1 } = data;
+    console.log(apiData1.sponsored_by)
 </script>
 <svelte:head>
     <title>Gdzie zakupy wariacie?</title>
