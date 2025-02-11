@@ -39,7 +39,7 @@
     </div>
     <div id="footer" class="bottom-1 inset-x-0 absolute">
         <p class="text-center"> © {apiData1.year_string} gdziezakupywariacie.pl | Wszelkie prawa zastrzeżone</p>
-        <p class="text-xs text-center">Te piękne API dostarczył dla was <a href="https://github.com/Ksyl0" class="text-blue-400 font-extralight">Ksyl</a></p>
+        <p class="text-xs text-center">Te piękne API dostarczył dla was <a href="https://github.com/Ksyl0" target="_blank" class="text-blue-400 font-extralight">Ksyl</a></p>
     </div>
 </div>
 
