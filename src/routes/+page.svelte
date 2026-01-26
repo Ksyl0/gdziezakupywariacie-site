@@ -3,7 +3,7 @@
     const { apiData, apiData1 } = data;
     
     // Determine if next Sunday is a trade Sunday
-    const isTradeNextSunday = apiData.czy_handlowa === "tak";
+    const isTradeNextSunday = apiData.czy_handlowa === "true";
 </script>
 
 <svelte:head>
