@@ -8,7 +8,7 @@
 		<div class="flex justify-between items-center h-16">
 			<div class="flex-shrink-0">
 				<a href="/" class="text-xl font-bold text-slate-100 hover:text-emerald-400 transition-colors">
-					gdziezakupywariacie.pl
+					Gdie Zakupy Wariacie?
 				</a>
 			</div>
 			<div class="flex space-x-8">
