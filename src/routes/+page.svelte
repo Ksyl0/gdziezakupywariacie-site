@@ -2,7 +2,7 @@
     export let data;
     const { apiData, apiData1 } = data;
     
-    const isTradeNextSunday = apiData.czy_handlowa === true;
+    const isTradeNextSunday = apiData.czy_handlowa == true;
 </script>
 
 <svelte:head>
